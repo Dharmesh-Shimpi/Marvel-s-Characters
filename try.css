@@ -38,7 +38,11 @@ body {
 }
 
 .logo {
+    cursor: pointer;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 8vh;
     width: 8vh;
     border-radius: 5rem;
