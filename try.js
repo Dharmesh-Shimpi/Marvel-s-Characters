@@ -27,7 +27,7 @@ export async function fetchMarveldata() {
     let allCharacters = [];
   
     while (true) {
-      const response = await fetch(`http://gateway.marvel.com:/v1/public/characters?ts=${ts}&apikey=${publicKey}&hash=${hash}&limit=${limit}&offset=${offset}`);
+      const response = await fetch(`https://gateway.marvel.com/v1/public/characters?ts=${ts}&apikey=${publicKey}&hash=${hash}&limit=${limit}&offset=${offset}`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
