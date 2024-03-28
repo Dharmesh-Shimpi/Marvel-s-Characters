@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Details</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="details.css">
+        <link href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1fa187a62b.js" crossorigin="anonymous"></script>
+        <script type="module" src="details.js" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    </head>
+    <body>
+        <div id="loading-overlay">
+            <div id="spinner"></div>
+            <p id="loading">Loading...</p>                
+        </div>
+        <header class="header">
+            <h1 class="name"></h1>
+            <i class="fa-regular fa-heart heart"></i>
+            <div class="add">Add to Favorites</div>
+        </header>
+        <main>        
+            <div class="character-div">       
+                <img src="" alt="OOPS!!  Photo not Available" class="character-img">                                   
+                <div class="character-info"></div>
+            </div>
+            <div class="names">
+                <h3 class="comics">Comics</h3>
+                <h3 class="events">Events</h3>
+                <h3 class="series">Series</h3>
+                <h3 class="stories">Stories</h3>
+                <h3 class="more">More on the Character...
+                    <a class="detail" href="">Detail</a>
+                    <a class="wiki" href="">Wiki</a>
+                    <a class="comiclink" href="">Comics</a>    
+                </h3>
+            </div> 
+
+
+        </main>
+    </body>
+</html>
